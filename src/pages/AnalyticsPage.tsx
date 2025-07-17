@@ -1,13 +1,13 @@
 import React from 'react';
 import { DashboardLayout } from '@/components/DashboardLayout';
-import { DashboardOverview } from '@/components/DashboardOverview';
+import { Analytics } from '@/components/Analytics';
 
-const Index = () => {
+const AnalyticsPage = () => {
   return (
     <DashboardLayout>
-      <DashboardOverview />
+      <Analytics />
     </DashboardLayout>
   );
 };
 
-export default Index;
+export default AnalyticsPage;

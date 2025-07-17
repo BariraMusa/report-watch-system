@@ -1,13 +1,13 @@
 import React from 'react';
 import { DashboardLayout } from '@/components/DashboardLayout';
-import { DashboardOverview } from '@/components/DashboardOverview';
+import { MapView } from '@/components/MapView';
 
-const Index = () => {
+const MapPage = () => {
   return (
     <DashboardLayout>
-      <DashboardOverview />
+      <MapView />
     </DashboardLayout>
   );
 };
 
-export default Index;
+export default MapPage;

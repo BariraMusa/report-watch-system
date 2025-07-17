@@ -1,13 +1,13 @@
 import React from 'react';
 import { DashboardLayout } from '@/components/DashboardLayout';
-import { DashboardOverview } from '@/components/DashboardOverview';
+import { MessageCenter } from '@/components/MessageCenter';
 
-const Index = () => {
+const MessagePage = () => {
   return (
     <DashboardLayout>
-      <DashboardOverview />
+      <MessageCenter />
     </DashboardLayout>
   );
 };
 
-export default Index;
+export default MessagePage;

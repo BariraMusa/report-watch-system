@@ -1,13 +1,13 @@
 import React from 'react';
 import { DashboardLayout } from '@/components/DashboardLayout';
-import { DashboardOverview } from '@/components/DashboardOverview';
+import { ReportsTable } from '@/components/ReportsTable';
 
-const Index = () => {
+const ReportsPage = () => {
   return (
     <DashboardLayout>
-      <DashboardOverview />
+      <ReportsTable />
     </DashboardLayout>
   );
 };
 
-export default Index;
+export default ReportsPage;
